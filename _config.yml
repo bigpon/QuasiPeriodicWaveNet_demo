@@ -9,7 +9,7 @@
 title: Quasi-Periodic WaveNet demo
 description: '' # write a nice description for your blog
 baseurl: '/QuasiPeriodicWaveNet_demo' # the subpath of your site, e.g. /blog
-url: 'https://bigpon.github.io' # the base hostname & protocol for your site http://www.example.com
+url: '' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
 # twitter_username: 'twitter_username'
 
