@@ -2,7 +2,7 @@
 layout: default
 ---
 This page is the demo of 
-1. "Quasi-Periodic WaveNet vocoder: a pitch dependent dilated convolution model for parametric speech generation" [[paper](https://arxiv.org/abs/1907.00797)] [code]  
+1. "Quasi-Periodic WaveNet vocoder: a pitch dependent dilated convolution model for parametric speech generation" [[paper](https://arxiv.org/abs/1907.00797)] [[code](https://github.com/bigpon/QPNet)]  
 2. "Statistical voice conversion with Quasi-Periodic WaveNet vocoder" [[paper](https://arxiv.org/abs/1907.08940)]  
 3. "Quasi-Periodic WaveNet: a frequency adaptive generative model for raw waveform" [paper]  
 
