@@ -2,12 +2,13 @@
 layout: default
 ---
 This page is the demo of 
-1. "Quasi-Periodic WaveNet vocoder: a pitch dependent dilated convolution model for parametric speech generation" [[paper](https://arxiv.org/abs/1907.00797)] [[code](https://github.com/bigpon/QPNet)]  
-2. "Statistical voice conversion with Quasi-Periodic WaveNet vocoder" [[paper](https://arxiv.org/abs/1907.08940)]  
-3. "Quasi-Periodic WaveNet: an autoregressive raw waveform generative model with pitch-dependent dilated convolution neural network " [paper]  
+1. "Quasi-Periodic WaveNet: an autoregressive raw waveform generative model with pitch-dependent dilated convolution neural network " [[paper](https://arxiv.org/abs/2007.05663)] [[code](https://github.com/bigpon/QPNet)]  
+2. "Quasi-Periodic WaveNet vocoder: a pitch dependent dilated convolution model for parametric speech generation" [[paper](https://arxiv.org/abs/1907.00797)] 
+3. "Statistical voice conversion with Quasi-Periodic WaveNet vocoder" [[paper](https://arxiv.org/abs/1907.08940)]  
+  
 
 ## **Abstract**  
-<p align="justify"> We propose a WaveNet-like quasi-periodic audio waveform generation model (QPNet) with a novel network architecture named pitch-dependent dilated convolution neural network (PDCNN) to improve the pitch controllability of WaveNet (WN). The effectiveness of the WN as a vocoder to generate high-fidelity speech samples on the basis of the given acoustic features has been proved recently. However, because of the fixed dilated convolution neural network (DCNN) and generic network architecture, the WN vocoder has the difficulty to generate speech with the given fundamental frequency (<i>F</i><sub>0</sub>) values which are outside the range observed in training data. To address this limitation, we propose the QPNet vocoder with a PDCNN component and a cascade network structure to respectively model the long- and short-term correlations of speech samples. Specifically, PDCNN is a variant of DCNN which has the time-variant adaptive dilation size related to the given <i>F</i><sub>0</sub> values. QPNet cascades the adaptive (with PDCNN layers) and fixed (with DCNN layers) modules to respectively model the periodicity and local correlations of speech signals. </p>
+<p align="justify"> We propose a WaveNet-like quasi-periodic audio waveform generation model (QPNet) with a novel network architecture named pitch-dependent dilated convolution neural network (PDCNN) to improve pitch controllability of WaveNet (WN). The effectiveness of WN as a vocoder to generate high-fidelity speech samples on the basis of the given acoustic features recently has been proved. However, because of the fixed dilated convolution neural network (DCNN) and generic network architecture, the WN vocoder has a difficulty to generate speech with the given fundamental frequency (<i>F</i><sub>0</sub>) values which are outside the observed <i>F</i><sub>0</sub> range of training data. To address this limitation, we propose the QPNet vocoder with the PDCNN component and a cascade network structure to respectively model the long- and short-term correlations of speech samples. Specifically, PDCNN is a variant of DCNN which has the time-variant adaptive dilation size related to the given <i>F</i><sub>0</sub> values. QPNet cascades the adaptive (with PDCNNs) and fixed (with DCNNs) macroblocks to respectively model the periodicity and local correlations of speech signals. </p>
 Testing corpus: [VCC2018](http://www.vc-challenge.org/)  
 
 ## **Architecture of QPNet vocoder**  
