@@ -2,7 +2,7 @@
 layout: default
 ---
 This page is the demo of 
-1. "Quasi-Periodic WaveNet: an autoregressive raw waveform generative model with pitch-dependent dilated convolution neural network " [[paper](https://arxiv.org/abs/2007.05663)] [[code](https://github.com/bigpon/QPNet)]  
+1. "Quasi-Periodic WaveNet: an autoregressive raw waveform generative model with pitch-dependent dilated convolution neural network " [[paper](https://arxiv.org/abs/2007.05663)] [[code](https://github.com/bigpon/QPNet)] [[YouTube](https://youtu.be/nRahlEgywjg)] [[Medium](https://medium.com/@bigpon517/2020-speech-generation-1-quasi-periodic-waveform-generative-model-with-pitch-dependent-dilated-792261d96aba)]  
 2. "Quasi-Periodic WaveNet vocoder: a pitch dependent dilated convolution model for parametric speech generation" [[paper](https://arxiv.org/abs/1907.00797)] 
 3. "Statistical voice conversion with Quasi-Periodic WaveNet vocoder" [[paper](https://arxiv.org/abs/1907.08940)]  
   
