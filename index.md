@@ -188,7 +188,7 @@ First, the pQPNet models with different dense factor were evaluated.
 
 <br />  
 
-- **Model** comparison
+- **Model** comparison  
 Secondly, the pQPNet model with a dense factor 8 were compared to the WNc and WNf models.
 
 <table border="0">
